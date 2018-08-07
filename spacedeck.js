@@ -122,7 +122,9 @@ module.exports = app;
 db.init();
 
 // START WEBSERVER
-const port = 9666;
+// const port = 9666;
+// Use OCP standard for nodejs
+const port = 8080;
 
 const server = http.Server(app).listen(port, () => {
   
