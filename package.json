@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "server": "node spacedeck.js"
   },
   "engines": {
     "node": ">=7.8.0"
